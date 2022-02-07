@@ -1,0 +1,9 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+  NtKinectDll.cpp
+C:\opencv_454\build\include\opencv2\calib3d.hpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+     Creating library C:\Users\takut\OneDrive\デスクトップ\NtKinectDll\x64\Debug\NtKinectDll.lib and object C:\Users\takut\OneDrive\デスクトップ\NtKinectDll\x64\Debug\NtKinectDll.exp
+NtKinectDll.obj : error LNK2019: unresolved external symbol "void __cdecl cv::imshow(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::debug_build_guard::_InputArray const &)" (?imshow@cv@@YAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV_InputArray@debug_build_guard@1@@Z) referenced in function getVoiceDirection
+NtKinectDll.obj : error LNK2019: unresolved external symbol "void __cdecl cv::line(class cv::debug_build_guard::_InputOutputArray const &,class cv::Point_<int>,class cv::Point_<int>,class cv::Scalar_<double> const &,int,int,int)" (?line@cv@@YAXAEBV_InputOutputArray@debug_build_guard@1@V?$Point_@H@1@1AEBV?$Scalar_@N@1@HHH@Z) referenced in function "public: void __cdecl NtKinect::drawAudioDirection(class cv::Mat &)" (?drawAudioDirection@NtKinect@@QEAAXAEAVMat@cv@@@Z)
+NtKinectDll.obj : error LNK2019: unresolved external symbol "void __cdecl cv::putText(class cv::debug_build_guard::_InputOutputArray const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::Point_<int>,int,double,class cv::Scalar_<double>,int,int,bool)" (?putText@cv@@YAXAEBV_InputOutputArray@debug_build_guard@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$Point_@H@1@HNV?$Scalar_@N@1@HH_N@Z) referenced in function getVoiceDirection
+C:\Users\takut\OneDrive\デスクトップ\NtKinectDll\x64\Debug\NtKinectDll.dll : fatal error LNK1120: 3 unresolved externals
